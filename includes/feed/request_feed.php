@@ -1,7 +1,7 @@
 <?php
 
 function request_feed () {
-	$rssUrl = 'http://resultmaps.neis-one.org/newestosmcountryfeed?c=Belgium';
+	$rssUrl = 'http://resultmaps.neis-one.org/newestosmcountryfeed.php?c=Spain';
 	$userAgent = 'osmwelcome.unitedbashers.com, contact at ruben@janmaes.com';
 
 
