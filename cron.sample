@@ -1,0 +1,7 @@
+# Take a backup of the contributors at 4:50
+50 4 * * * tar -zcf "/var/www/osm-welcome-belgium/backup/`date +\%Y-\%m-\%d`.tgz" /var/www/osm-welcome-belgium/contributors/ && rm -rf "/var/www/osm-welcome-belgium/backup/`date --date '15 days ago' +\%Y-\%m-\%d`.tgz"
+# Update existing contributors at 5:00
+0 5 * * * php /var/www/osm-welcome-belgium/update_existing.php >"/var/www/osm-welcome-belgium/updatelog/`date +\%Y-\%m-\%d_\%H-\%M-\%S`_update.log" 2>&1
+# Get new contributors at 6:00
+0 6 * * * php /var/www/osm-welcome-belgium/get_new.php >"/var/www/osm-welcome-belgium/updatelog/`date +\%Y-\%m-\%d_\%H-\%M-\%S`_new.log" 2>&1
+
