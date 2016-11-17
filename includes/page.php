@@ -27,7 +27,7 @@ function page_start ($title, $backto=null, $beforetitle=null) {
 	}
 	
 	echo $title;
-	echo ' – New OSM Contributors in Belgium</title>
+	echo ' – Nuevos mapeadores OSM en España</title>
 	
 	';
 	echo $GLOBALS['styles'];
@@ -42,7 +42,7 @@ function page_start ($title, $backto=null, $beforetitle=null) {
   <body>
   
 	<header>
-		<h1>New OSM Contributors in Belgium</h1>
+		<h1>Nuevos mapeadores OSM en España</h1>
 		
 		<nav>';
 			
