@@ -7,8 +7,11 @@ include_once(INCLUDES_PATH . '/api/detect_editors.php');
 include_once(INCLUDES_PATH . '/api/detect_language.php');
 
 $language_codes = array(
-	'nl' => 'Dutch',
+	'es' => 'Castellano',
+	'ca' => 'Català',
+	'gl' => 'Galego',
 	'fr' => 'French',
+	'nl' => 'Dutch',
 	'de' => 'German'
 );
 define('DETECT_LANGUAGE', 1);

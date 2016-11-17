@@ -53,16 +53,28 @@ function generate_message ($type, $userid, $language=null) {
 					
 				} elseif ($info->language === 'English') {
 					include(INCLUDES_PATH . '/messages/welcome-en.php');
-					
+
 				} elseif ($info->language === 'German') {
 					include(INCLUDES_PATH . '/messages/welcome-de.php');
-					
+
+				} elseif ($info->language === 'Castellano') {
+					include(INCLUDES_PATH . '/messages/welcome-es.php');
+
+                                } elseif ($info->language === 'Català') {
+                                        include(INCLUDES_PATH . '/messages/welcome-ca.php');						
+                                } elseif ($info->language === 'Galego') {
+                                        include(INCLUDES_PATH . '/messages/welcome-gl.php');
+				
 				} else {
+					include(INCLUDES_PATH . '/messages/welcome-es.php');
+					include(INCLUDES_PATH . '/messages/welcome-ca.php');
 					include(INCLUDES_PATH . '/messages/welcome-en.php');
 					include(INCLUDES_PATH . '/messages/welcome-nl.php');
 					include(INCLUDES_PATH . '/messages/welcome-fr.php');
 				}
 			} else {
+				include(INCLUDES_PATH . '/messages/welcome-es.php');
+				include(INCLUDES_PATH . '/messages/welcome-ca.php');
 				include(INCLUDES_PATH . '/messages/welcome-en.php');
 				include(INCLUDES_PATH . '/messages/welcome-nl.php');
 				include(INCLUDES_PATH . '/messages/welcome-fr.php');

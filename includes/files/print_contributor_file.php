@@ -36,7 +36,7 @@ function edit_button ($item_to_edit, $userid, $text) {
 	echo '</a>';
 }
 
-$languages = array('Dutch', 'French', 'German', 'English');
+$languages = array('Castellano','Català','Galego','Dutch', 'French', 'German', 'English');
 function language_selector ($current=null) {
 
 	if (is_null($current)) {

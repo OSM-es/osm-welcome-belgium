@@ -27,4 +27,18 @@ $welcome_bottom['en']['fr'] = 'French';
 $welcome_bottom['en']['en'] = 'English';
 $welcome_bottom['en']['de'] = 'German';
 
+
+$welcome_bottom['es']['es'] = 'Castellano';
+$welcome_bottom['es']['ca'] = 'Catalán';
+$welcome_bottom['es']['ca'] = 'Gallego';
+$welcome_bottom['ca']['ca'] = 'Català';
+$welcome_bottom['ca']['es'] = 'Castellà';
+$welcome_bottom['ca']['gl'] = 'Gallec';
+$welcome_bottom['gl']['gl'] = 'Galego';
+$welcome_bottom['gl']['es'] = 'Castelán';
+$welcome_bottom['gl']['ca'] = 'Catalán';
+
+
+
+
 ?>

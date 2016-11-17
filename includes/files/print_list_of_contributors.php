@@ -68,21 +68,33 @@ function print_list_of_contributors () {
 		} else {
 			switch ($info->language) {
 				case 'Dutch' :
-					$lang = 'NL';
+					$lang = 'nl';
 					if ($filter->isEnabled(FILTER_ANY_LANGUAGE) && !$filter->isEnabled(FILTER_LANG_DUTCH)) continue 2;
 					break;
 				case 'French' :
-					$lang = 'FR';
+					$lang = 'fr';
 					if ($filter->isEnabled(FILTER_ANY_LANGUAGE) && !$filter->isEnabled(FILTER_LANG_FRENCH)) continue 2;
 					break;
 				case 'English' :
-					$lang = 'EN';
+					$lang = 'en';
 					if ($filter->isEnabled(FILTER_ANY_LANGUAGE) && !$filter->isEnabled(FILTER_LANG_ENGLISH)) continue 2;
 					break;
 				case 'German' :
-					$lang = 'DE';
+					$lang = 'de';
 					if ($filter->isEnabled(FILTER_ANY_LANGUAGE) && !$filter->isEnabled(FILTER_LANG_GERMAN)) continue 2;
 					break;
+                                case 'Castellano' :
+                                        $lang = 'es';
+                                        if ($filter->isEnabled(FILTER_ANY_LANGUAGE) && !$filter->isEnabled(FILTER_LANG_SPANISH)) continue 2;
+                                        break;
+                                case 'Català' :
+                                        $lang = 'ca';
+                                        if ($filter->isEnabled(FILTER_ANY_LANGUAGE) && !$filter->isEnabled(FILTER_LANG_CATALA)) continue 2;
+                                        break;
+                                case 'Galego' :
+                                        $lang = 'gl';
+                                        if ($filter->isEnabled(FILTER_ANY_LANGUAGE) && !$filter->isEnabled(FILTER_LANG_GALEGO)) continue 2;
+                                        break;
 				default :
 					$lang = 'o';
 					if ($filter->isEnabled(FILTER_ANY_LANGUAGE) && !$filter->isEnabled(FILTER_LANG_OTHER)) continue 2;
