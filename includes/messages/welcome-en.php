@@ -10,7 +10,7 @@ $welcome[$language]['hi'] = 'Hi %1$s';
 
 $welcome[$language]['bravo'] = 'I saw that you made your first edit on OpenStreetMap. Congratulations and thanks! You’re now a member of the OSM community.';
 
-$welcome[$language]['reality'] = 'We don’t only exist '.markdown_link('online', 'http://osm.be/').', but also '.markdown_link('in real life', 'https://www.meetup.com/OpenStreetMap-Belgium/').'.';
+$welcome[$language]['reality'] = 'We don’t only exist '.markdown_link('online', 'http://openstreetmap.es/').', but also '.markdown_link('in real life', 'https://wiki.openstreetmap.org/wiki/Current_events').'.';
 
 $welcome[$language]['questions'] = 'If you’ve got any questions, we can help you: if you think you broke something, don’t know for sure how to map something, or just want to know more about OpenStreetMap, you can contact us.';
 
@@ -25,7 +25,7 @@ $welcome[$language]['info_other'] = 'If you want to know how to tag something, t
 
 $welcome[$language]['info_solution'] = 'to search for “site:wiki.openstreetmap.org [search term]” with your favourite search engine. You can also browse through the questions on '.markdown_link('the Help site', 'https://help.openstreetmap.org').' or ask one yourself, or post on '.markdown_link('the forum', 'https://forum.openstreetmap.org/viewforum.php?id=29').'.';
 
-$welcome[$language]['news'] = 'If you want to stay on top of the Belgian community, subscribe to the '.markdown_link('Belgian mailing list', 'https://lists.openstreetmap.org/listinfo/talk-be').'. You can also follow '.markdown_link('@osm_be', 'https://twitter.com/osm_be').' on Twitter, become a member of the '.markdown_link('Meetup group', 'https://www.meetup.com/OpenStreetMap-Belgium/').', the '.markdown_link('Facebook group', 'https://www.facebook.com/groups/1419016881706058/').' or the '.markdown_link('Google+ community', 'https://plus.google.com/communities/114637875336935397552').'.';
+$welcome[$language]['news'] = 'If you want to stay on top of the Spanish community, subscribe to the '.markdown_link('talk-es mailing list', 'https://lists.openstreetmap.org/listinfo/talk-es').'. You can also follow '.markdown_link('@openstreetmapes', 'https://twitter.com/openstreetmapes').' on Twitter and join the conversation on '.markdown_link('#openstreetmap-es', 'https://riot.im/app/#/room/#openstreetmap-es:matrix.org').'.';
 
 $welcome[$language]['resultmaps'] = 'To see active mappers in your neighbourhood or to check out how much you’ve contributed, check out the maps and stats at '.markdown_link('resultmaps.neis-one.org', 'http://resultmaps.neis-one.org/').'.';
 
@@ -33,6 +33,7 @@ $welcome[$language]['weeklyosm'] = 'There’s also a '.markdown_link('weekly, gl
 
 $welcome[$language]['endingsentence'] = 'Happy Mapping!';
 
-$welcome[$language]['osm-be'] = 'OpenStreetMap Belgium';
+$welcome[$language]['osm-be'] = 'OpenStreetMap España';
 
 $welcome[$language]['multiple_langs'] = 'We sent this message in multiple languages, because we were unable to detect your language.';
+
