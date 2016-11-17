@@ -3,14 +3,13 @@ include_once('paths.php');
 include_once(INCLUDES_PATH.'/page.php');
 
 register_style('css/info.css');
-page_start('Help on welcoming new contributors');
+page_start('Colabora dando la bienvenida a los nuevos mapeadores');
 ?>
 
 	<article>
 		<nav>
 			<ul>
-				<li><a href="info-nl.php">Nederlands</a></li>
-				<li><a href="info-fr.php">Français</a></li>
+				<li><a href="info-es.php">Castellano</a></li>
 			</ul>
 		</nav>
 	</article>

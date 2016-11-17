@@ -14,7 +14,7 @@ page_start('List');
 
 	<article>
 		<section>
-			<p>Welcome to the <i>New OSM Contributors in Belgium</i> Panel. Below you can find a list of the latest new contributors. Click one to open their file.</p>
+			<p>Bienvenido a la herramienta de bienvenida a los nuevos usuarios de OSM en <i> España</i>. Debajo está la lista con los últimos usuarios. Haz click en uno para ver su ficha.</p>
 		</section>
 		
 		<section class="filtercontrols">

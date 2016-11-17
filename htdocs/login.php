@@ -25,7 +25,9 @@ page_start('Log in');
 			}
 		?>
 		
-		<p>Welcome to the <i>New OSM Contributors in Belgium</i> Panel. You need to log in with your OSM account to use this service.</p>
+		<p>
+
+Bienvenido a la herramienta de bienvenida a los nuevos usuarios de OSM en España. Tienes que loguearte con tu usuario OSM.</p>
 		<p>Don't worry, we're using OAuth so you don't have to trust us with your password.</p>
 		<p>Click the button below to proceed. You will be sent to openstreetmap.org where you can log in if you're not already logged in over there. Next, you will have to grant us permission to use your account.</p>
 		<p><a href="dologin.php<?php
